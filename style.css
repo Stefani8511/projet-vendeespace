@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', ;
+    color: black;
+    
+}
+
+ h2 { 
+        text-align:center;
+        overflow:hidden;
+        margin-top: 15px;
+      }
+      h2 span {
+        display:inline-block;
+      }
+      h2 span:before,
+      h2 span:after {
+        content:'';
+        height:100%;
+        display:inline-block;
+        width:1000px;
+      }
+      h2 span:before {
+        margin-right:-100%;
+        border-bottom:solid 2px;
+        color:red;
+        vertical-align:-0.4em;/* à regler selon */
+      }
+      h2 span:after {
+        margin-left:-100%;
+        vertical-align:top;
+        border-top:solid 2px;
+        color:red;
+      }
+      h2{
+        padding: 50px;
+      }    
+
+a{
+  color: black;
+  
+}
+a:hover {
+  color: red; 
+  text-decoration: none;
+}
+
+/*HEADER*/
+
+
+.header{
+  width: 100%;
+  height: 200px;
+  background-image: url(./images/banniere.png);
+  background-size: cover;
+  position: relative;
+}
+
+#banniere{
+  background-image: url(./images/banniere.png);
+  height: 320px;
+  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+/*NAVIGATION*/
+
+#navigation{
+  position: relative;
+ display: flex;
+ justify-content: space-around;
+}
+
+/*ACCUEIL*/
+
+#menu-page{
+display: flex;
+justify-content: space-around;
+margin-bottom: 30px;
+}
+
+.card {
+ 
+ display: flex;
+ align-items: center;
+  height: 100%;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(241, 7, 7, 0.9); 
+  
+
+  -webkit-transition: all 1s ease;
+  /* Safari et Chrome */
+  -moz-transition: all 1s ease;
+  /* Firefox */
+  -ms-transition: all 1s ease;
+  /* Internet Explorer 9 */
+  -o-transition: all 1s ease;
+  /* Opera */
+  transition: all 1s ease;
+}
+
+.card:hover{
+  -webkit-transform: scale(1.25);
+  /* Safari et Chrome */
+  -moz-transform: scale(1.25);
+  /* Firefox */
+  -ms-transform: scale(1.25);
+  /* Internet Explorer 9 */
+  -o-transform: scale(1.25);
+  /* Opera */
+  transform: scale(1.25);
+}
+
+
+/*INFO PRATIQUE*/
+
+/*TOURNOI*/
+
+
+.tournois {
+  color:black;
+  text-align: center;
+  padding:  30px;
+  /*font-size: 15px;*/
+}
+.famille-the{
+  background-color:#cdf6e1 ;
+}
+.famille-details{
+  background-color: #fff;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+  
+}
+.famille-details h5 p{
+  margin-top: 30px;
+}
+
+.famille-details img {
+display: block;
+margin: 0 auto;
+width: 70%;
+object-fit: cover;
+}
+
+
+/*PARTENAIRES*/
+
+#partenaires{
+    height: 100%;
+   background-color: #fff;
+}
+.mr-3{
+    padding: 40px;
+   
+}
+img.m-3{
+    border-radius: 20px;
+}
+#partenaires h2{
+    display: flex;
+    justify-content: center;
+   
+}
+
+/*CONTACT FORMULAIRE*/
+
+/*---------CONTACT---*/
+.contact-form{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contact-message{
+  width: 100%;
+}
+.btn-contact {
+  background-color: red;
+  color: #fff;
+}
+
+
+/*FOOTER*/
+
+#footer{
+  background-color: rgb(122, 120, 120);
+  color: #fff;
+  height: 60px;
+  padding: 20px 20px;
+  text-align: center;
+}
+
