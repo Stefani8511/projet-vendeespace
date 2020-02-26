@@ -48,39 +48,33 @@ a:hover {
 }
 
 /*HEADER*/
-
-
-.header{
-  width: 100%;
-  height: 200px;
-  background-image: url(./images/banniere.png);
-  background-size: cover;
-  position: relative;
+header{
+  height: 100%;
 }
 
-#banniere{
-  background-image: url(./images/banniere.png);
-  height: 320px;
+
+#banniere img{
   width: 100%;
-  background-repeat: no-repeat;
-  object-fit: cover;
+  height:40% ;
+ 
 }
+
 
 /*NAVIGATION*/
 
-#navigation{
-  position: relative;
+/*#navigation{
+  
  display: flex;
  justify-content: space-around;
 }
-
-/*ACCUEIL*/
-
+*/
+/*menu accueil tournoi info et partenaires*/
+/*
 #menu-page{
 display: flex;
 justify-content: space-around;
 margin-bottom: 30px;
-}
+}*/
 
 .card {
  
