@@ -1,3 +1,5 @@
+/*GLOBAL*/
+
 *{
     margin: 0;
     padding: 0;
@@ -47,8 +49,25 @@ a:hover {
   text-decoration: none;
 }
 
+scroll_to_top { 
+  position: fixed; 
+  width: 25px; 
+  height: 25px; 
+  bottom: 50px; 
+  margin-right: 80px;
+  
+} 
+scroll_to_top i { 
+   width: 50px; 
+  color: grey;
+}
+
+
+
 /*HEADER*/
-header{
+
+
+/*header{
   height: 100%;
 }
 header img {
@@ -56,15 +75,21 @@ header img {
   background-repeat: no-repeat;
   height:100% ;
  
-}
+}*/
 .hero{
-   background-image: url("./images/banniere.png");
+   background-image: url("./images/nouvelle-banniere-site.png");
    background-size: contain;
-   background-position: center;
-   background-repeat: no-repeat;
-   height: 200px;
 
+   background-repeat: no-repeat;
+   height: 320px;
+   
  }
+ 
+
+
+
+ /*CARROUSEL*/
+
  .carousel-item{
    height: 400px;
    
@@ -74,6 +99,7 @@ object-fit: contain;
   height: 100%;
   width: 100%;
 }
+
 /*NAVIGATION*/
 
 #navigation{
@@ -81,7 +107,18 @@ object-fit: contain;
   justify-content: center;
   padding-left: 20px ;
   padding-right: 20px;
+  
 }
+
+#navigation a{
+  font-size: 25px;
+  
+}
+nav #navigation{
+  display: flex;
+  justify-content: space-around;
+}
+
 
 /*TEXTE ACCROCHEUR*/
 .titre-accrocheur{
@@ -99,6 +136,7 @@ object-fit: contain;
 #menu-page{
   margin-bottom: 35px; 
   margin-top: 35px;
+  
 }
  
 .card {
