@@ -85,11 +85,12 @@ header img {
  
 }*/
 .hero{
-   background-image: url("./images/nouvelle-banniere-site.png");
+  /* background-image: url("./images/nouvelle-banniere-site.png");
    /* background-size: contain; */
   background-size: cover;
    background-repeat: no-repeat;
-   height: 380px;
+   height: 400px;
+  
    
  }
  
@@ -143,6 +144,17 @@ nav #navigation{
   justify-content: center;
   margin-top: 20px;
 }
+
+.premier{
+  position: relative;
+  bottom: 1px;
+font-size: .6em;
+line-height: .4em;
+vertical-align: top;
+text-decoration:none;
+margin-right: 5px;
+}
+
 
 /*NAVIGATION carte*/
 
