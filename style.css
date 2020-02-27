@@ -116,7 +116,14 @@ object-fit: contain;
   height: 100%;
   width: 100%;
 }
+.carousel-inner img{
+  object-fit: contain;
+    height: 100%;
+    width: 100%;
+  
+  }
 
+ 
 
 
 /*NAVIGATION*/
