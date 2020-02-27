@@ -1,5 +1,7 @@
 /*GLOBAL*/
+@media( max-width: 500px){
 
+}
 
 
 
@@ -119,7 +121,7 @@ object-fit: contain;
   height: 100%;
   width: 100%;
 }
-.carousel-inner img{
+.carousel-inner {
   object-fit: contain;
     height: 100%;
     width: 100%;
