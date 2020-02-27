@@ -42,8 +42,12 @@
 
 a{
   color: black;
-  
+ 
+  }
+#section a{
+  color: #fff;
 }
+
 a:hover {
   color: red; 
   text-decoration: none;
@@ -78,10 +82,10 @@ header img {
 }*/
 .hero{
    background-image: url("./images/nouvelle-banniere-site.png");
-   background-size: contain;
-
+   /* background-size: contain; */
+  background-size: cover;
    background-repeat: no-repeat;
-   height: 320px;
+   height: 380px;
    
  }
  
@@ -98,6 +102,10 @@ header img {
 object-fit: contain;
   height: 100%;
   width: 100%;
+}
+
+.carousel{
+  
 }
 
 /*NAVIGATION*/
@@ -129,6 +137,7 @@ nav #navigation{
 #premier-tournoi{
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 /*NAVIGATION carte*/
@@ -168,6 +177,7 @@ nav #navigation{
   -o-transform: scale(1.25);
   /* Opera */
   transform: scale(1.25);
+  z-index: 1;
 }
 
 
@@ -279,16 +289,25 @@ object-fit: cover;
 }
 .mr-3{
     padding: 40px;
-   
+  
 }
-img.m-3{
-    border-radius: 20px;
-    object-fit: cover;
-}
+
 #partenaires h2{
     display: flex;
     justify-content: center;
    
+}
+
+.media{
+  height: 350px;
+  width: 300px;
+  
+}
+.media img {
+  /*border-radius: 20px;*/
+  object-fit: contain;
+  width: 100%;
+  
 }
 
 /*CONTACT FORMULAIRE*/
@@ -309,11 +328,34 @@ img.m-3{
 
 /*FOOTER*/
 
-#footer{
-  background-color: rgb(122, 120, 120);
+.adoum{
   color: #fff;
-  height: 60px;
-  padding: 20px 20px;
-  text-align: center;
+  
+}
+.container1 {
+  word-spacing: 25px;
 }
 
+        #footer {            
+            color: #fff;
+            height: 60px;
+            padding: 20px 20px;
+        }
+        .copyright {
+            text-align: center;
+            
+        }
+        .copyright a{
+            color: #fff;
+        }
+    .contacter {
+    font-size: 30px;
+    }
+    .Facebk{
+  font-size: 20px;
+    }
+    #section {
+  background-color:  #8F1818;
+  color: #fff;
+  
+    }
