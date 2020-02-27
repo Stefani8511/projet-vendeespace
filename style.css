@@ -63,36 +63,34 @@ a:hover {
 }
 
 /*SCROLL*/
-.scrollup {
-  width: 40px;
+
+
+/*.scrollup {
+  width: 50px;
   height: 40px;
-  position: fixed;
-  bottom: 50px;
+   bottom: 50px;
   right: 50px;
-  display: none;
   color: white;
-  background-color: #3a3f51;
-  border: 1px solid #3a3f51;
+  background-color: #48494d;
+  border: 1px solid #454547;
   font-size: 20px;
   text-align: center;
   line-height: 37px;
-}
-
+  margin-left: 50%;
+}*/
+/*
 .scrollup:hover {
   color: white;
-}
+}*/
 
-scroll_to_top { 
-  position: fixed; 
-  width: 25px; 
-  height: 25px; 
-  bottom: 50px; 
-  margin-right: 80px;
+#scroll_to_top i{ 
+   color: gray;
+  font-size: 50px;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+margin-top: 30px;
   
-} 
-scroll_to_top i { 
-   width: 50px; 
-  color: grey;
 }
 
 
@@ -193,9 +191,9 @@ nav #navigation {
 .card {
 
 
-  height: 100%;
-  width: 350px;
-  box-shadow: 0 5px 10px rgba(241, 7, 7, 0.9);
+ /* height: 100%;
+  width: 350px;*/
+  box-shadow: 0 7px 15px rgba(241, 7, 7, 0.9);
 
 
   -webkit-transition: all 2s ease;
@@ -224,6 +222,12 @@ nav #navigation {
 
 
 /*INFO PRATIQUE*/
+
+#Info h2 {
+  display: flex;
+  justify-content: center;
+
+}
 
 .fd1 {
   border: 4px solid black;
@@ -299,6 +303,11 @@ nav #navigation {
 
 /*TOURNOI*/
 
+#tournoi h2 {
+  display: flex;
+  justify-content: center;
+
+}
 
 .tournois {
   color: black;
@@ -454,5 +463,40 @@ nav #navigation {
 .philippe{
   display:none;
 }
+.card{
+  margin-bottom: 10px;
+}
+#section{
+  height: 150px;
+}
+h2{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin:none;
+}
 
+img.plan4{
+  size: 1rem;
+  margin-bottom: 10rem;
+}
+}
+
+@media(min_width: 500) and (max-width: 959px){
+  
+  img .card-img{
+    margin-bottom: 50px;
+  }
+  
+  #section{
+    height: 300px;
+    font-size: 7px;
+  }
+.cartes{
+  margin-bottom: 50px;
+}
+ .part{
+   display: flex;
+   justify-content: center;
+ }
 }
