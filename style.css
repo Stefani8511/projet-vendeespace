@@ -448,18 +448,16 @@ nav #navigation {
 }
 
 /*MEDIA QUIERIES*/
-@media(max-width: 960px) {
-  #premier-tournoi h1 {
-    font-size: 30px;
 
-  }
-
-  
-}
 @media(max-width: 500px) {
   #premier-tournoi h1 {
     font-size: 15px;
   }
+  #premier-tournoi h5{
+font-size: 12px;
+
+  }
+
 .philippe{
   display:none;
 }
@@ -480,10 +478,25 @@ img.plan4{
   size: 1rem;
   margin-bottom: 10rem;
 }
+#scroll_to_top i{
+  font-size: 10px;
 }
 
+
+}
+
+
+
+
+
+
 @media(min_width: 500) and (max-width: 959px){
-  
+ 
+  #premier-tournoi h1 {
+    font-size: 30px;
+
+  }
+
   img .card-img{
     margin-bottom: 50px;
   }
