@@ -344,8 +344,9 @@ object-fit: cover;
 
 /*FOOTER*/
 
-.adoum{
+.adoum a i{
   color: #fff;
+ 
   
 }
 .container1 {
@@ -376,3 +377,5 @@ object-fit: cover;
  
   
     }
+
+   
