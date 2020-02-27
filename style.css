@@ -85,8 +85,7 @@ header img {
  
 }*/
 .hero{
-  /* background-image: url("./images/nouvelle-banniere-site.png");
-   /* background-size: contain; */
+ 
   background-size: cover;
    background-repeat: no-repeat;
    height: 400px;
@@ -94,8 +93,6 @@ header img {
    
  }
  
-
-
 
  /*CARROUSEL*/
 
@@ -109,8 +106,8 @@ object-fit: contain;
   width: 100%;
 }
 
-.carousel{
-  
+@keyframes{
+  trans
 }
 
 /*NAVIGATION*/
@@ -344,7 +341,7 @@ object-fit: cover;
 
 /*FOOTER*/
 
-.adoum a i{
+.adoum {
   color: #fff;
  
   
@@ -377,5 +374,8 @@ object-fit: cover;
  
   
     }
-
-   
+    .fa-facebook{
+      color: #3B5998;
+      font-size: 2em;
+      margin-right: 1%;
+    }
