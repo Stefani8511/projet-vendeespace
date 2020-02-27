@@ -70,6 +70,10 @@ scroll_to_top i {
 
 /*HEADER*/
 
+#header {
+	cursor: pointer;
+	height: 104px; 
+	}
 
 /*header{
   height: 100%;
@@ -343,7 +347,7 @@ object-fit: cover;
         }
         .copyright {
             text-align: center;
-            
+                        
         }
         .copyright a{
             color: #fff;
@@ -357,5 +361,6 @@ object-fit: cover;
     #section {
   background-color:  #8F1818;
   color: #fff;
+ 
   
     }
