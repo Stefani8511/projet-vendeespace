@@ -490,7 +490,12 @@ width: 100%;
   .part {
     display: flex;
     justify-content: center;
+   
 
+  }
+
+  #partenaires{
+     margin-bottom: 40px;
   }
   .media{
     height: 200px;
@@ -539,6 +544,7 @@ width: auto;
     .part {
       display: flex;
       justify-content: center;
+
     }
 
     
