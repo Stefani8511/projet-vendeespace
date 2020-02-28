@@ -1,7 +1,5 @@
 /*GLOBAL*/
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -64,24 +62,6 @@ a:hover {
 
 /*SCROLL*/
 
-
-/*.scrollup {
-  width: 50px;
-  height: 40px;
-   bottom: 50px;
-  right: 50px;
-  color: white;
-  background-color: #48494d;
-  border: 1px solid #454547;
-  font-size: 20px;
-  text-align: center;
-  line-height: 37px;
-  margin-left: 50%;
-}*/
-/*
-.scrollup:hover {
-  color: white;
-}*/
 
 #scroll_to_top i {
   color: gray;
@@ -487,11 +467,7 @@ nav #navigation {
     margin-bottom: 10rem;
   }
 
-  #scroll_to_top i {
-    font-size: 10px;
-  }
-
-
+  
 }
 
 
@@ -528,7 +504,6 @@ nav #navigation {
       justify-content: center;
     }
 
-    #scroll_to_top i {
-      font-size: 10px;
-    }
+    
+    
   }
