@@ -432,6 +432,20 @@ justify-content: center;
 /*PORTABLE*/
 
 @media(max-width: 600px) {
+
+.button1{
+  float: right;
+width: 100%;
+}
+
+  .icon-button{
+      width: 100%;
+  }
+  span.navbar-toggler-icon.buton{
+    float: right;
+  }
+    
+
   #premier-tournoi h1 {
     font-size: 15px;
   }
